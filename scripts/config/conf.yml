@@ -1,0 +1,10 @@
+main:
+    ssh_config:
+        key: /home/dmitryd/.ssh/id_rsa
+        user: dmitryd
+variables:
+    dirs:
+        work_dir: /home/dmitryd/ansible_ui/
+        pb_dir: /home/dmitryd/ansible_ui/pb/
+        pb_retry_dir: /home/dmitryd/ansible_ui/retry/
+        inventory_dir: /home/dmitryd/ansible_ui/hosts/

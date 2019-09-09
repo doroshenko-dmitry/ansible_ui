@@ -1,0 +1,21 @@
+---
+- hosts: all
+
+  tasks:
+
+  - block: # For Ubuntu
+#    - apt:
+#      update_cache: yes
+
+#    - name: Install repos
+#      apt_repository:
+#        repo:  ppa:nginx/stable
+
+#    - name: Install nginx
+#      apt:
+#        name: nginx-full
+#        state: latest
+      - name: fdfdfdfs
+        shell: ping -c 4 8.8.8.8
+
+    when: ansible_distribution == "Ubuntu"

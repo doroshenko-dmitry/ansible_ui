@@ -1,0 +1,10 @@
+---
+- hosts: all
+
+  tasks:
+
+  - block: # For Ubuntu
+
+    - action: ping
+
+    when: ansible_distribution == "Ubuntu"
